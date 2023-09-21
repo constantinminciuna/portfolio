@@ -11,12 +11,14 @@
   .container{
     display: flex;
     justify-content:center;
+    flex-direction: column;
   }
   
   .item{
     text-align: center;
     align-self: center;
     align-content: center;
+    margin-top: 15px;
   }
   
   a{
@@ -126,7 +128,7 @@
   }
   
   .item{
-    max-width: 40%;
+    max-width: 100%;
   }
   
   @keyframes ring {
@@ -142,3 +144,17 @@
     }
   }
   
+
+  @media screen and (min-width: 768px) {
+    
+    .container{
+      display: flex;
+      justify-content:center;
+    }
+    
+    
+    .item{
+      max-width: 40%;
+    }
+    
+  }

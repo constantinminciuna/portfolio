@@ -1,17 +1,46 @@
+.home{
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 30px;
+}
 
 .titolone{
-    font-size: 200px;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 7%;
+  color: var(--main-color1);
+}
+  
+.titolone2{
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 1px;
+  color: var(--main-color2);
+}
+
+@media screen and (min-width: 768px) {
+  .home{
+    display: flow-root;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 40px;
+  }
+
+  .titolone{
+    font-size: 10rem;
     text-align: center;
     margin-top: 7%;
-    margin-bottom: 0px;
     color: var(--main-color1);
   }
-  
+    
   .titolone2{
-    font-size: 70px;
+    font-size: 5rem;
     text-align: center;
     margin-top: 1px;
     color: var(--main-color2);
   }
-  
-  
+
+}
